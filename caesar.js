@@ -1,6 +1,6 @@
-var MODULE = function(){
+var MODULE = function(shift){
 
-	var shift = 6
+
 	return {
 
 		cipher: function(message) {
@@ -147,7 +147,7 @@ var MODULE = function(){
 
 		}}
 
-}();
+}(6);
 
-//console.log(MODULE.cipher("Et tu, brute?"));
+console.log(MODULE.cipher("Et tu, brute?"));
 //console.log(MODULE.decypher("kz za, hxazk?"));
