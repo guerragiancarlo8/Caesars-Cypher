@@ -14,7 +14,7 @@ var MODULE = function(shift){
 			}
 
 
-			splitted = message.split('');
+			splitted = message.split("");
 			var step1;
 			var step2;
 
